@@ -1,0 +1,6 @@
+.new-circle{
+   width: calc(100% - 10px);
+}
+.slides-nav__index{
+   z-index: 2;
+}

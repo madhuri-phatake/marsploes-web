@@ -1,0 +1,36 @@
+.page-header{
+    background-color: #ea8a68;
+}
+.cont h4{
+    font-size: 18px;
+    font-weight: 300;
+}
+.showcase-full{
+    overflow: hidden;
+}
+.adbanao_video_bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    width: 100%;
+    animation: scrollUp 15s infinite;
+}
+.testim-vrt .sub-title{
+    font-size: 20px;
+}
+.sub-title{
+    font-size: 45px !important;
+}
+@keyframes scrollUp {
+    0% {
+        top: 0px
+    }
+
+    50% {
+        top: -150px
+    }
+
+    100% {
+        top: 0px
+    }
+}

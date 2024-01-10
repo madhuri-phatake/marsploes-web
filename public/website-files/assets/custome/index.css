@@ -1,0 +1,77 @@
+.slideshow {
+    background-color: #cf5311;
+}
+
+.our-story-cont h4 {
+    font-size: 16px
+}
+
+.owl-carousel .owl-item img {
+    width: 10% !important
+}
+
+.item {
+    position: relative;
+}
+
+.image-logo:after {
+    content: url(/website-files/assets/custome-img/faco-Marspoles.png);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /* background-image: url(/website-files/assets/custome-img/faco-Marspoles.png); */
+}
+
+.slide__caption .sub-title {
+    font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .video-radius {
+        width: 100%;
+        height: 100%;
+    }
+
+    .desktop-device {
+        display: none;
+    }
+
+    .mobile-device {
+        display: block;
+    }
+
+}
+
+.desktop-device {
+    display: block;
+}
+
+.mobile-device {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .portfolio .masonry .info-overlay .item-img::after, .portfolio .grid .info-overlay .item-img::after {
+        opacity: 1;
+    }
+
+    .portfolio .masonry .info-overlay .item-img:after, 
+    .portfolio .grid .info-overlay .item-img:after{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.50);
+        transition: opacity 0.3s ease;
+        opacity: 0;
+        border-radius: 36px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
